@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/validacionEstudiante.css" rel="stylesheet" />
+    <title>Validación de estudiante</title>
+</head>
+<body>
+
+    <h3>Ficha de estudiante</h3>
+
+    <form onsubmit="return false">
+        <div>
+            <label for="idCarnet">Carnet (AB001):</label>
+            <input type="text" id="idCarnet" />
+        </div>
+
+        <div>
+            <label for="idNombre">Nombre completo:</label>
+            <input type="text" id="idNombre" />
+        </div>
+
+        <div>
+            <label for="idDui">DUI (#######-#):</label>
+            <input type="text" id="idDui" />
+        </div>
+
+        <div>
+            <label for="idNit">NIT (####-####-###-#):</label>
+            <input type="text" id="idNit" />
+        </div>
+
+        <div>
+            <label for="idFecha">Fecha de nacimiento (DD/MM/AAAA):</label>
+            <input type="text" id="idFecha" />
+        </div>
+
+        <div>
+            <label for="idCorreo">Correo electrónico:</label>
+            <input type="text" id="idCorreo" />
+        </div>
+
+        <div>
+            <label for="idEdad">Edad:</label>
+            <input type="text" id="idEdad" />
+        </div>
+
+        <button type="button" id="idBtnValidar">Validar</button>
+    </form>
+
+    <div id="idResultado"></div>
+
+    <script src="js/validacionEstudiante.js" defer></script>
+</body>
+</html>
